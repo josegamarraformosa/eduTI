@@ -1,4 +1,5 @@
 
+
 @font-face{
       font-family: 'GothamBlack';
       src: url('../fuente/GothamBlack.woff') format('woff');
@@ -23,7 +24,7 @@
 }
 */
 .izquierda{
- background-color:#50c878;/*esmeralda*/
+ background-color:#ffb733;/*esmeralda*/
 }
   
 .derecha{
@@ -57,20 +58,27 @@
     font-family:sans-serif;
     color: white;
     font-size: 18px;
-    background-color: #226d3b;
+    background-color:#895900;
     border-radius: .25rem;
     padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
     
 
   }
 
   .circulo{
+  height: 2rem;
+  width:  2rem;
   cursor: pointer;
   background-color: red;
   color: black;
   border-style:solid;
-  
+
   border-width:medium;
+  }
+  .circulo:hover{
+    color: white;
   }
 
   .item_b{
@@ -84,6 +92,8 @@
     background-color:#0e3650;
     border-radius: .25rem;
     padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
    
 
   }
