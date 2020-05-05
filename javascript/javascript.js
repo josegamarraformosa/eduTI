@@ -1,5 +1,5 @@
 
-/*
+
 $('.dropdown').on('show.bs.dropdown', function () {
 	$('.dropdown-item').on('click',function(evento){
 		
@@ -9,9 +9,11 @@ $('.dropdown').on('show.bs.dropdown', function () {
 		$(this).evento.off();
 	})
 
-})*/
+})
+$(".circulo").draggable();
 
-$(".arrastrar").draggable();
-$("#caca").draggable();
 
-$(".encabezado").draggable();
+  	
+ 
+
+
